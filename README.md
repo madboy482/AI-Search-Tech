@@ -1,7 +1,8 @@
 # Pathfinding Visualizer
-![image](https://github.com/user-attachments/assets/a75e8fb3-32e5-4bc8-be2b-4f647b3ab989)
-![image](https://github.com/user-attachments/assets/9160e79f-a30f-4d9e-8826-3933f0e4110d)
-![image](https://github.com/user-attachments/assets/d80dcf45-5ee7-498d-82c6-1a3ed403170f)
+![image](https://github.com/user-attachments/assets/16eeb710-9aa7-485a-a299-5a7dadb8cb8d)
+![image](https://github.com/user-attachments/assets/328da57e-c7ce-4649-802c-4c55650ff267)
+![image](https://github.com/user-attachments/assets/e1b28236-e8cf-4e1e-953b-fbafb17a7108)
+
 
 
 # AI Puzzle Game
