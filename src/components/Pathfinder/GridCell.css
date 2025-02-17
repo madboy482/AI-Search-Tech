@@ -1,0 +1,7 @@
+/* GridCell.css */
+.grid-cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  transition: background-color 0.2s ease;
+}

@@ -1,0 +1,71 @@
+/* SlidingPuzzle.css */
+
+/* Basic styling for the puzzle container */
+.puzzle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f3f4f6; /* Light background color */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the grid of tiles */
+.puzzle-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Styling for each tile */
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #eaecee; /* Black color for the tiles */
+  color: #212f3c; /* White color for the text (numbers) to be visible */
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.2s ease;
+}
+
+/* Empty tile styling */
+.tile.empty {
+  background-color: #f3f4f8; /* Light color for the empty space */
+  cursor: default;
+} 
+
+/* Hover effect for tiles */
+.tile:hover {
+  transform: scale(1.1);
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Shuffle and solve buttons styling */
+button {
+  background-color: #1e88e5; /* Blue color for buttons */
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #d1d5db; /* Gray for disabled state */
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #1565c0; /* Darker blue on hover */
+}

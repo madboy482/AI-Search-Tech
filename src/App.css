@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.navbar {
+  background-color: #007bff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.ai-puzzle-button {
+  background-color: #ff5733;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.ai-puzzle-button:hover {
+  background-color: #e74c3c;
+}
+
+/* Add additional styling for the puzzle or visualizer if necessary */
+.puzzle-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.puzzle-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.tile {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ecf0f1;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.tile.empty {
+  background-color: #bdc3c7;
+}
+
+.shuffle-button,
+.solve-button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.shuffle-button:disabled,
+.solve-button:disabled {
+  background-color: #ccc;
+}
+
+.shuffle-button:hover:not(:disabled),
+.solve-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+/* Go Back Button Styling */
+.go-back-button {
+  background-color: #ff5733;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.go-back-button:hover {
+  background-color: #e74c3c;
+}
+
+.go-back-button:focus {
+  outline: none;
+}
