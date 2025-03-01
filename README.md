@@ -1,11 +1,9 @@
 # Pathfinding Visualizer
-![image](https://github.com/user-attachments/assets/16eeb710-9aa7-485a-a299-5a7dadb8cb8d)
-![image](https://github.com/user-attachments/assets/328da57e-c7ce-4649-802c-4c55650ff267)
-![image](https://github.com/user-attachments/assets/e1b28236-e8cf-4e1e-953b-fbafb17a7108)
-
-
+![image](https://github.com/user-attachments/assets/3564c4b7-58e3-42ad-a030-f054686587c3)
+![image](https://github.com/user-attachments/assets/529684fe-44ee-4b82-9556-2984e33ad154)
+![image](https://github.com/user-attachments/assets/3973e3af-95a7-4ec4-a986-9e65377d2e4c)
 
 # AI Puzzle Game
-![image](https://github.com/user-attachments/assets/c4e768f0-617d-499d-94f5-f64e6b0d6e94)
-![image](https://github.com/user-attachments/assets/2c46b7c1-1f61-4bc4-ae46-0e89442af905)
-![image](https://github.com/user-attachments/assets/64b484fd-77bb-4eea-91c1-a7da1a939853)
+![image](https://github.com/user-attachments/assets/b9f10f3d-3387-4c83-8c70-35ef480e1614)
+![image](https://github.com/user-attachments/assets/b0580c8d-cfa2-4cf2-8974-95bce81f69be)
+![image](https://github.com/user-attachments/assets/47f93c6a-fe53-45f2-bfc6-297a655fab8c)
